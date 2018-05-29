@@ -1,4 +1,4 @@
-e0c5a52eb0566a0306b7199bf9c050f4 *DESCRIPTION
+f7e3f6c0ac38036d15e63eebbe26876d *DESCRIPTION
 405c2105dadde85d2959434c512d4c94 *NAMESPACE
 a1386f1a6acc1bfac0867bd9ae010703 *R/aaa.R
 94b1c567a0bc16b4bc39c498125d21bf *R/build-query.R
@@ -10,7 +10,7 @@ b2d4dd8a21861420c836d72b434b2c3b *R/link-ethoscope-metadata-remote.R
 0d4006027c5d3cb30dbce03a5668adc6 *R/list-all-rois.R
 7f32a02155fe7b464f71b2cc80c7d052 *R/list-result-files.R
 b01a1c05a9ad1b66e30f8b3e31d0231e *R/load-ethoscope.R
-e23cd60830ff6feade59accf2e5bd752 *R/make-index-file.R
+41fc29f436f59c427d15ba16fd8a20a0 *R/make-index-file.R
 b28dcb478f5f1743cce192168e2dda1d *R/parse-datetime.R
 41c61519f46e04b8d05b4f8cbec068e9 *R/parse-single-roi.R
 569f9f3548f4eaaba4999ffd9e83a124 *R/read-single-roi.R
@@ -32,11 +32,11 @@ fbc32c3c660cb9d4dd1db6231081673f *man/load_ethoscope.Rd
 a2216768d3d7c5909e1568d7f65dcde2 *man/region_id_metadata.Rd
 59b749dac333d5a8d35052ce4a24121b *man/scopr_example.Rd
 3573a5895c6f5eaad6db618c2991c288 *tests/testthat.R
-de9504cc5d7d381095d9aceb5002d05e *tests/testthat/test-build_query.R
+5106ab0de06ac9e4fa80bc63aea4e7b7 *tests/testthat/test-build_query.R
 ce09ee6cff58323cd12f6b37df81cfe9 *tests/testthat/test-link_ethocope_metadata.R
 791df10cd1ceedf68bf0a88435beea4e *tests/testthat/test-link_ethoscope_metadata_remote.R
 4dfd6b8d92bb8fa12b84a357fff472aa *tests/testthat/test-list_result_files.R
 ca740b94730127a036e09b8edc90d1b8 *tests/testthat/test-load_ethoscope.R
-f4db0cad50a31832fcd70211f11b1391 *tests/testthat/test-make_index_file.R
-8cb7915406bbab6e632d470fcc043fbf *tests/testthat/test-parse_single_roi.R
-c9210ac563222d4f975dace472407ba5 *tests/testthat/test-read_single_roi.R
+c9103269b7beb8530e8ef377d2d67948 *tests/testthat/test-make_index_file.R
+46abcea29c0897fe884ae6581b7eee60 *tests/testthat/test-parse_single_roi.R
+79d46533249f20f17d81c37f40949abc *tests/testthat/test-read_single_roi.R

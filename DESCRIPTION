@@ -1,7 +1,7 @@
 Package: scopr
 Title: Read Ethoscope Data
-Date: 2018-05-17
-Version: 0.3.1
+Date: 2018-05-26
+Version: 0.3.2
 Authors@R: c(
     person("Quentin", "Geissmann", role = c("aut", "cre"), email = "qgeissmann@gmail.com")
     )
@@ -11,6 +11,7 @@ Description: Handling of behavioural data from the Ethoscope platform
     interconnected raspberry pis (<https://www.raspberrypi.org>) designed to quantify the behaviour of multiple 
     small animals in a distributed and real-time fashion. The default tracking algorithm records primary variables
     such as xy coordinates, dimensions and speed.
+    This package is part of the rethomics framework <http://rethomics.github.io/>.
 Depends: R (>= 3.00), behavr
 Imports: data.table, readr, stringr, RSQLite, memoise
 Suggests: testthat, covr, knitr, ggetho, zeitgebr
@@ -21,8 +22,8 @@ URL: https://github.com/rethomics/scopr
 BugReports: https://github.com/rethomics/scopr/issues
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-05-18 14:42:35 UTC; quentin
+Packaged: 2018-05-26 18:56:01 UTC; quentin
 Author: Quentin Geissmann [aut, cre]
 Maintainer: Quentin Geissmann <qgeissmann@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-05-18 15:36:59 UTC
+Date/Publication: 2018-05-29 08:30:45 UTC

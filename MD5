@@ -1,4 +1,4 @@
-f7e3f6c0ac38036d15e63eebbe26876d *DESCRIPTION
+ac6057046d65504bda68114747812de0 *DESCRIPTION
 405c2105dadde85d2959434c512d4c94 *NAMESPACE
 a1386f1a6acc1bfac0867bd9ae010703 *R/aaa.R
 94b1c567a0bc16b4bc39c498125d21bf *R/build-query.R
@@ -27,14 +27,14 @@ e43a87bec3b09a5c994bad29fa7a2e25 *inst/extdata/ethoscope_results/index.txt
 47727f09b7c9916e84e6626a8c116360 *man/experiment_info.Rd
 e44f852aa1d6dd4f9a6435b200f19fcb *man/link_ethoscope_metadata.Rd
 c52ff43e721da96b863f075ccc6897c4 *man/list_result_files.Rd
-fbc32c3c660cb9d4dd1db6231081673f *man/load_ethoscope.Rd
+eb810c153b436dd5b05c0a5984c3af56 *man/load_ethoscope.Rd
 992a3b34e124a5336e013de66970b672 *man/no_region_id_metadata.Rd
 a2216768d3d7c5909e1568d7f65dcde2 *man/region_id_metadata.Rd
 59b749dac333d5a8d35052ce4a24121b *man/scopr_example.Rd
 3573a5895c6f5eaad6db618c2991c288 *tests/testthat.R
 5106ab0de06ac9e4fa80bc63aea4e7b7 *tests/testthat/test-build_query.R
-ce09ee6cff58323cd12f6b37df81cfe9 *tests/testthat/test-link_ethocope_metadata.R
-791df10cd1ceedf68bf0a88435beea4e *tests/testthat/test-link_ethoscope_metadata_remote.R
+db0a3d2dc3f6380685cc29281dac84a3 *tests/testthat/test-link_ethocope_metadata.R
+1bd3f3d84539dba9dbba242f24ace1bb *tests/testthat/test-link_ethoscope_metadata_remote.R
 4dfd6b8d92bb8fa12b84a357fff472aa *tests/testthat/test-list_result_files.R
 ca740b94730127a036e09b8edc90d1b8 *tests/testthat/test-load_ethoscope.R
 c9103269b7beb8530e8ef377d2d67948 *tests/testthat/test-make_index_file.R

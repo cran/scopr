@@ -1,7 +1,7 @@
 Package: scopr
 Title: Read Ethoscope Data
-Date: 2018-05-26
-Version: 0.3.2
+Date: 2019-02-14
+Version: 0.3.3
 Authors@R: c(
     person("Quentin", "Geissmann", role = c("aut", "cre"), email = "qgeissmann@gmail.com")
     )
@@ -20,10 +20,10 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/rethomics/scopr
 BugReports: https://github.com/rethomics/scopr/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2018-05-26 18:56:01 UTC; quentin
+Packaged: 2019-02-15 00:12:39 UTC; quentin
 Author: Quentin Geissmann [aut, cre]
 Maintainer: Quentin Geissmann <qgeissmann@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-05-29 08:30:45 UTC
+Date/Publication: 2019-02-15 15:20:03 UTC

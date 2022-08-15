@@ -4,9 +4,19 @@
 \alias{load_ethoscope}
 \title{Load data from ethoscope result files}
 \usage{
-load_ethoscope(metadata, min_time = 0, max_time = Inf,
-  reference_hour = NULL, verbose = TRUE, columns = NULL,
-  cache = NULL, ncores = 1, FUN = NULL, ...)
+load_ethoscope(
+  metadata,
+  min_time = 0,
+  max_time = Inf,
+  reference_hour = NULL,
+  verbose = TRUE,
+  columns = NULL,
+  cache = NULL,
+  ncores = 1,
+  FUN = NULL,
+  map_arg = NULL,
+  ...
+)
 }
 \arguments{
 \item{metadata}{\link[data.table:data.table]{data.table::data.table} used to load data (see detail)}
@@ -30,6 +40,8 @@ When \code{NULL} and if \code{FUN} is set, columns can be retrieved automaticall
 \item{FUN}{function (optional) to transform the data from each individual
 immediately after is has been loaded.}
 
+\item{map_arg}{a list to map \code{FUN} arguments to metavariables values. See details}
+
 \item{...}{extra arguments to be passed to \code{FUN}}
 }
 \value{
@@ -44,11 +56,13 @@ Distance units (e.g. xy position, height/width) are expressed as a fraction of t
 }
 \description{
 This function is used to import behavioural data generated
-by the \href{http://gilestrolab.github.io/ethoscope/}{ethoscope platform}.
+by the \href{https://www.notion.so/giorgiogilestro/Ethoscope-User-Manual-a9739373ae9f4840aa45b277f2f0e3a7}{ethoscope platform}.
 That is it loads multiple \code{.db} files into a single \code{R} \link[behavr:behavr]{behavr::behavr} table.
 }
 \details{
 the linked metadata should be generated using \link{link_ethoscope_metadata}.
+\code{map_arg} is a list of the form \code{list(fun_arg = "metavariable")}.
+When provided, \code{FUN} will set specific arguments (\code{fun_arg}) to the value of a (quoted) metavariable.
 }
 \examples{
 dir <- paste0(scopr_example_dir(), "/ethoscope_results/")

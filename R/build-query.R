@@ -11,7 +11,6 @@ build_query <- function(result_dir,
 
   if(!is.null(query)){
     q <- data.table::copy(data.table::as.data.table(query))
-
     check_columns(c("date","machine_name"), q)
     if(!"time" %in% colnames(q))
       q[, time := NA_character_]
@@ -20,8 +19,6 @@ build_query <- function(result_dir,
     q[, time := parse_time(time, tz="UTC")]
     data.table::setkeyv(q,key)
   }
-
-
   # first of all, we retreive the files for which time was not specified (NA)
   q_no_time <- q[is.na(time)]
   q_no_time[, time:=NULL]

@@ -42,7 +42,7 @@ These function will augment metadata from two different types of inputs (\code{x
 \enumerate{
 \item A \link{data.frame} (recomended)
 In this case, the function will try to match requested data with data available on \code{result_dir}.
-The provided \link{data.table} has typically one row per requested individual and the columns
+The provided \link[data.table:data.table]{data.table::data.table} has typically one row per requested individual and the columns
 (not necessarily in this order):
 \itemize{
 \item \code{machine_name} -- the name of the machine in which the individual was (e.g. \code{"ETHOSCOPE_001"})

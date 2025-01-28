@@ -22,8 +22,8 @@ list_result_files <- function(result_dir, index_file=NULL){
                                                  header = FALSE,
                                                  verbose = FALSE,
                                                  showProgress = FALSE)},
-             error = function(e) stop(sprintf("Could not find index file: %s, %s",
-                                         index_file, e)))
+             error = function(e) stop(sprintf("Could not find index file: %s",
+                                         index_file)))
 
     all_db_files <- grep(".*\\.db", dt_all_files$V1, value = TRUE)
   }

@@ -16,7 +16,7 @@ test_that("link_ethoscope_metadata_remote with date and machine name", {
                                      result_dir = result_dir,
                                      overwrite_local = TRUE,
                                      verbose=F)
-
+?data.table::fread
   out2 <- scopr:::link_ethoscope_metadata(query,
                               dir)
 

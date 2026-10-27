@@ -1,5 +1,5 @@
-8c9e2fe29bc8ca62bc120ed5aa9d0c8f *DESCRIPTION
-405c2105dadde85d2959434c512d4c94 *NAMESPACE
+e9a4dc73057db521cb0a13dcda5e4eec *DESCRIPTION
+dadd4fa5437420e73d8244652983e560 *NAMESPACE
 a1386f1a6acc1bfac0867bd9ae010703 *R/aaa.R
 94b1c567a0bc16b4bc39c498125d21bf *R/build-query.R
 a03d3d487772d7423653a9a4e19a6a7c *R/data.R
@@ -9,13 +9,14 @@ b2d4dd8a21861420c836d72b434b2c3b *R/link-ethoscope-metadata-remote.R
 4b1c3acd5b5fbd8150bbd86aca2f83e1 *R/link-ethoscope-metadata.R
 0d4006027c5d3cb30dbce03a5668adc6 *R/list-all-rois.R
 7f32a02155fe7b464f71b2cc80c7d052 *R/list-result-files.R
-5c64233b33c0ac21f7c0857e9d1f7e50 *R/load-ethoscope.R
+6ec6205a212d38d5e257749db0690a56 *R/load-ethoscope.R
 41fc29f436f59c427d15ba16fd8a20a0 *R/make-index-file.R
 62161355122cd1a830b1c71f3e7b202f *R/parse-datetime.R
 41c61519f46e04b8d05b4f8cbec068e9 *R/parse-single-roi.R
-569f9f3548f4eaaba4999ffd9e83a124 *R/read-single-roi.R
+450c191c6bbbdeb8a39619f63f616fd1 *R/read-single-roi.R
 1ee9191bc08a7fa75fe8fd7bc148d80b *R/utils-dataframe.R
 a10a018be7f7529ad322b78f76e53e28 *R/utils-path.R
+b2c19b92fff4c6abc4224724c1a6b3d1 *README.md
 65abcf18243e93ff82244ccd8344d6f9 *data/no_region_id_metadata.rda
 5599f5f05909aacd36b7902d409108a1 *data/region_id_metadata.rda
 2749da29f20ce7a85092323f193adee8 *inst/extdata/ethoscope_results/014/E_014/2016-01-25_21-36-04/2016-01-25_21-36-04_014.db
@@ -26,7 +27,7 @@ e43a87bec3b09a5c994bad29fa7a2e25 *inst/extdata/ethoscope_results/index.txt
 47727f09b7c9916e84e6626a8c116360 *man/experiment_info.Rd
 087e8f8b02ffbcbbe39774631df19c32 *man/link_ethoscope_metadata.Rd
 c52ff43e721da96b863f075ccc6897c4 *man/list_result_files.Rd
-536ce700a21f22f8fb343c23b867b7f2 *man/load_ethoscope.Rd
+889003759799466a8e3fca3f49394c36 *man/load_ethoscope.Rd
 3ee211df4094c420bc91c6eeb0616c91 *man/no_region_id_metadata.Rd
 cd3c3e8087a974a321fa3f824d8d8902 *man/region_id_metadata.Rd
 59b749dac333d5a8d35052ce4a24121b *man/scopr_example.Rd

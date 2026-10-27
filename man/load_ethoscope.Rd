@@ -56,7 +56,7 @@ Distance units (e.g. xy position, height/width) are expressed as a fraction of t
 }
 \description{
 This function is used to import behavioural data generated
-by the \href{https://giorgiogilestro.notion.site/Ethoscope-User-Manual-a9739373ae9f4840aa45b277f2f0e3a7}{ethoscope platform}.
+by the \href{https://ethoscope.net}{ethoscope platform}.
 That is it loads multiple \code{.db} files into a single \code{R} \link[behavr:behavr]{behavr::behavr} table.
 }
 \details{
